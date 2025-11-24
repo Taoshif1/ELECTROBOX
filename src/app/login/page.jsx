@@ -1,4 +1,3 @@
-// src/app/login/page.jsx
 'use client';
 
 import { useState } from 'react';
@@ -157,8 +156,8 @@ export default function LoginPage() {
                   value={formData.name}
                   onChange={handleChange}
                   required={!isLogin}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
-                  placeholder="John Doe"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-gray-900"
+                  placeholder="Taoshif Gazi"
                 />
               </div>
             )}
@@ -175,7 +174,7 @@ export default function LoginPage() {
                   value={formData.email}
                   onChange={handleChange}
                   required
-                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                  className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-gray-900"
                   placeholder="your@email.com"
                 />
               </div>
@@ -193,7 +192,7 @@ export default function LoginPage() {
                   value={formData.password}
                   onChange={handleChange}
                   required
-                  className="w-full pl-10 pr-12 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all"
+                  className="w-full pl-10 pr-12 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all text-gray-900"
                   placeholder="••••••••"
                   minLength={6}
                 />
